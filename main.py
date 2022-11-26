@@ -89,12 +89,12 @@ def lookup(id=None, username=None, filebasename=None, lista=[None]):
 
     return user_data
 
-
 def usage():
     print("Usage: ")
     print("    save\n    lookup\n       -*id <USER ID>\n       -*username <NAME#TAG>\n       -filebasename user_data\n       -fs ['all']")
 
 usage()
+
 while(True):
     cmd = input("[+] User: ")
     if(cmd == "save"):
